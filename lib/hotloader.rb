@@ -8,9 +8,9 @@ module Hotloader
         mount ActionCable.server => '/cable'
       end
 
-      Rails.application.configure do 
-          ActionCable.server.config.logger = Logger.new(nil)
-      end
+      # Rails.application.configure do 
+      #     ActionCable.server.config.logger = Logger.new(nil)
+      # end
       # app.paths.add "config/cable", with: "config/refesh.yml"
 
       listener = Listen.to("app") do 

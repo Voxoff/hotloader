@@ -16,15 +16,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install hotloader
-
+Do this please
 
 ``` javascript
 //= require hotloader
-```
-
-While we wait on Rubygems
-```ruby
-gem "hotloader", :git => "git://github.com/Voxoff/hotloader.git"
 ```
 
 ## Usage
