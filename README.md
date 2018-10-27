@@ -1,5 +1,5 @@
 # Hotloader by Voxoff
-Hate refreshing every time you edit your views? Start Hotloading.
+Hate refreshing every time you edit your views? Start Hotloading. Give it 10 secs on boot to load ActionCable and give some logs.
 
 ## Installation
 

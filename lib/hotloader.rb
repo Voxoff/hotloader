@@ -7,20 +7,27 @@ module Hotloader
       Rails.application.routes.append do
         mount ActionCable.server => '/cable'
       end
-
       # Rails.application.configure do 
       #     ActionCable.server.config.logger = Logger.new(nil)
       # end
-      # app.paths.add "config/cable", with: "config/refesh.yml"
 
-      app.config.assets.precompile << "hotloader/hotloader.js"
+      Hotloader.load_files.each do |file|
+        require_relative File.join("../", file)
+      end
+
+      app.config.assets.precompile << "hotloader.js"
 
       listener = Listen.to("app") do 
         ActionCable.server.broadcast "refresh_channel", {title: "refresh"}
       end
       listener.start
-    end    
+    end
   end
+  def self.load_files
+    [
+      "app/channels/refresh_channel.rb"
+    ]
+  end    
 end
 
 
