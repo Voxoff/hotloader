@@ -13,6 +13,8 @@ module Hotloader
       # end
       # app.paths.add "config/cable", with: "config/refesh.yml"
 
+      app.config.assets.precompile << "hotloader/hotloader.js"
+
       listener = Listen.to("app") do 
         ActionCable.server.broadcast "refresh_channel", {title: "refresh"}
       end
