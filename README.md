@@ -1,7 +1,7 @@
 # Hotloader by Voxoff
 Hate refreshing your browser every time you edit your views? Start Hotloading. 
 
-Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah. Something simpler? Welcome Hotloader.
+Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah. Something simpler? Start Hotloading.
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will auto refresh.
 
