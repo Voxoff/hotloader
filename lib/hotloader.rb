@@ -7,9 +7,9 @@ module Hotloader
       Rails.application.routes.append do
         mount ActionCable.server => '/cable'
       end
-      # Rails.application.configure do 
-      #     ActionCable.server.config.logger = Logger.new(nil)
-      # end
+      Rails.application.configure do 
+          ActionCable.server.config.logger = Logger.new(nil)
+      end
 
       Hotloader.load_files.each do |file|
         require_relative File.join("../", file)
