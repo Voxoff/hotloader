@@ -9,6 +9,8 @@ Give ActionCable time to boot on launch of server and voila.
 
 [![Gem Version](https://badge.fury.io/rb/hotloader.svg)](https://badge.fury.io/rb/hotloader)
 
+https://rubygems.org/gems/hotloader
+
 ## Installation
 
 Add this line to your application's Gemfile:
