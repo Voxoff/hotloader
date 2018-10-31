@@ -1,5 +1,13 @@
-# Hotloader by Voxoff
-Hate refreshing every time you edit your views? Start Hotloading. Give it 10 secs on boot to load ActionCable and give some logs.
+# Hotloader
+Hate refreshing your browser every time you edit your views? Start Hotloading. 
+
+Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah. Something simpler? Start Hotloading.
+
+Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will auto refresh.
+
+Give ActionCable time to boot on launch of server and voila.
+
+[![Gem Version](https://badge.fury.io/rb/hotloader.svg)](https://badge.fury.io/rb/hotloader)
 
 ## Installation
 
@@ -9,28 +17,16 @@ Add this line to your application's Gemfile:
 gem 'hotloader'
 ```
 
-And then execute:
-
-    $ bundle
-
 Or install it yourself as:
 
     $ gem install hotloader
-Do this please
+    
+    
+Dont' forget the javascript in application.js
 
 ``` javascript
 //= require hotloader
 ```
-
-## Usage
-
-Do the above. Everytime you save a a file in your rails app folder, your page will automatically refresh. 
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
