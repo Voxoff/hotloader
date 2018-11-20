@@ -1,8 +1,8 @@
 # Hotloader
-Ya know that :expressionless: face when you're waiting for your views to load. _Every_ time you change a 'lil bit of CSS. Well Hotloader auto refreshes :open_mouth:
+Ya know that :expressionless: face when you're waiting for your views to load. _Every_ time you change a 'lil bit of CSS. Well Hotloader auto refreshes :open_mouth: :smirk:
 
 
-Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah. :expressionless: Start Hotloading.
+Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah? :unamused: A problem no longer! :smirk:
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will auto refresh.
 
