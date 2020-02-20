@@ -4,10 +4,10 @@ You know that :expressionless: face when you're waiting for your views to load. 
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will auto refresh.
 
-You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah :unamused: 
+You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah :unamused: or
 
 
-Give ActionCable time to boot on launch of server and voila.
+Give ActionCable time to boot on launch of server and voilà.
 
 [![Gem Version](https://badge.fury.io/rb/hotloader.svg)](https://badge.fury.io/rb/hotloader)
 
