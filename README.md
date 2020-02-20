@@ -2,11 +2,11 @@
 You know that :expressionless: face when you're waiting for your views to load. _Every_ time you change a 'lil bit of CSS. Well Hotloader auto refreshes :open_mouth: :smirk:
 
 
-Hate faffing with Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah? :unamused: A problem no longer! :smirk:
+Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will refresh.
 
-Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will auto refresh.
+You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah :unamused: but is that your best life?
 
-Give ActionCable time to boot on launch of server and voila.
+Give ActionCable time to boot on launch of server and voilà.
 
 [![Gem Version](https://badge.fury.io/rb/hotloader.svg)](https://badge.fury.io/rb/hotloader)
 
@@ -17,19 +17,28 @@ https://rubygems.org/gems/hotloader
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hotloader'
+gem 'hotloader', group: :development
 ```
 
 Or install it yourself as:
 
     $ gem install hotloader
-    
-    
-Dont' forget the javascript in application.js
+
+
+Don't forget the javascript in application.js
 
 ``` javascript
 //= require hotloader
 ```
+
+## Debugging
+
+ActionCable requires redis. On OSX:
+``` bash
+brew install redis
+```
+
+If the gem is not in the :development group, it will break deployment e.g. Heroku without Redis
 
 ## Contributing
 
