@@ -1,0 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+  (function() {
+    <% if Rails.env.development? %>
+      App.refresh = App.cable.subscriptions.create("RefreshChannel", {
+        received: function(data) {
+          location.reload();
+        }
+      });
+    <% end %>
+  }).call(this);
+})
