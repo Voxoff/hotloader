@@ -2,12 +2,11 @@
 
 ```Caution: Hotloader is for Rails 5 and below ```
 
-You know that :expressionless: face when you're waiting for your views to load. _Every_ time you change a 'lil bit of CSS. Well Hotloader auto refreshes :open_mouth: :smirk:
-
+You know that expressionless face when you're waiting for your views to load. _Every_ time you change a little bit of CSS. Well Hotloader auto refreshes your views. :open_mouth: 
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will refresh.
 
-You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah :unamused: but is that your best life?
+You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah...but is that your best life?
 
 Give ActionCable time to boot on launch of server and voilà.
 
