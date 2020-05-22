@@ -2,7 +2,7 @@
 
 ```Caution: Hotloader is for Rails 5 and below ```
 
-You know that expressionless face when you're waiting for your views to load. _Every_ time you change a little bit of CSS. Well Hotloader auto refreshes your views. :open_mouth: 
+You know that expressionless face when you're waiting for your views to load. _Every_ time you change a little bit of CSS. Well Hotloader auto refreshes your views.
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will refresh.
 
