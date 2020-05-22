@@ -6,7 +6,7 @@ You know that expressionless face when you're waiting for your views to load. _E
 
 Everytime you save a file in your rails app folder, your browser will automatically refresh. Save a view, a controller, a css component, your browser will refresh.
 
-You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard blah blah blah...but is that your best life?
+You could use Guard, Guardfiles, GuardLiveReload, bundle exec guard, another guard bug... but is that your best life?
 
 Give ActionCable time to boot on launch of server and voilà.
 
