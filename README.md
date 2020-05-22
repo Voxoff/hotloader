@@ -1,4 +1,7 @@
 # Hotloader
+
+```Caution: Hotloader is for Rails 5 and below ```
+
 You know that :expressionless: face when you're waiting for your views to load. _Every_ time you change a 'lil bit of CSS. Well Hotloader auto refreshes :open_mouth: :smirk:
 
 
